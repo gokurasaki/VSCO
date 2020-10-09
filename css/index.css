@@ -1,0 +1,286 @@
+
+ @import "./header.css";
+ @import "./footer.css";
+
+ /*網頁內容開始*/
+
+/**{
+	border: 1px solid red;
+}*/
+
+main.container{
+	margin: 0 auto;
+/*	border: 1px solid red;*/
+	text-align: center;
+	width: 100%;
+}
+
+/*Arudeco標題---------------------*/
+
+.brandstory{
+	width: calc(100% - 160px);
+    margin: 0 auto;
+
+}
+.title1{
+
+	text-align: center;
+	margin-top: 200px;
+	font-family: Felix Titling;
+	color: #956134;
+	font-size: 4rem;
+	letter-spacing: 12px;
+}
+
+.slogan{
+	text-align: center;
+	padding:  30px 5px;
+    font-family: Noto Sans TC;
+    letter-spacing: 8px;
+    color: #956134;
+    font-weight: bold;
+}
+
+.btmline{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	color: #956134;
+
+}
+
+.descript{
+	margin-top: 40px;
+	color: #956134;
+	line-height: 2rem;
+	font-size: 14px;
+    letter-spacing: 4px;
+    padding-bottom: 40px;
+}
+
+
+
+/*首頁輪播圖區域-----------------------------------------------*/
+.index_img_block{
+	text-align: center;
+	width: calc(100% - 160px);
+	margin: 0 auto;
+
+}
+/*首頁輪播圖尺寸*/
+.index_img_block img{
+	max-width: 100%;
+}
+
+
+/*精選飾品區域--------------------------------------------------*/
+.Product{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 60px;
+ 	width: calc(100% - 160px);
+}
+
+/*Product標題-------------------*/
+.title2{
+    display: block;
+	top:  0px;
+	left:0;
+	font-family: Felix Titling;
+	color: #956134;
+	font-size: 56px;
+	letter-spacing: 12px;
+	margin-bottom: 60px;
+}
+
+/*Product圖文區域---------------*/
+.Product_container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+/*精選飾品圖片區域-------*/
+.Product_img{
+    width: 60%;
+}
+
+.Product_img img{
+	width: 100%;
+}
+
+
+
+
+/*精選飾品文字區域--------*/
+.title2_descript{
+	width: 35%;
+	height: 50%;
+    text-align: left;
+	color: #956134;
+
+}
+
+/*精選飾品標題-----*/
+
+.title2_descript-1{
+	position: relative;
+    display: inline-block;
+}
+
+
+.title2_descript-1 p{
+	display: inline-block;
+    font-size: 28px; 
+	font-family: baskerville-display-pt,YuMincho,Yu Mincho;
+	font-weight: bold;
+	letter-spacing: 15px;
+
+}
+
+/*標題裝飾線------*/
+.title2_descript-1 img{
+	display: inline-block;
+
+}
+
+/*精選飾品描述----*/
+.title2_descript-2{
+	position: relative;
+    display: inline-block;
+    font-size: 16px; 
+    letter-spacing: 7px;
+    margin-top: 20px;
+    line-height: 2rem;
+}
+
+/*按鈕*/
+span.btn{
+	display: inline-block;
+	background-color: #956134;
+	color: white; 
+	border-radius: 24px;
+	font-size: 16px;
+	padding: 10px 60px;
+	letter-spacing: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+/*最新消息區域------------------------------*/
+
+.NEWS{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 80px;
+ 	width: calc(100% - 160px);
+}
+
+.title3{
+	position: relative;
+    display: block;
+	top:  0px;
+	left:0;
+	font-family: Felix Titling;
+	color: #956134;
+	font-size: 56px;
+	letter-spacing: 12px;
+}
+
+
+
+.market_info-1{
+	color: #956134;
+	font-family: baskerville-display-pt,YuMincho,Yu Mincho;
+	font-size: 2rem;
+	font-weight: bold;
+	letter-spacing: 8px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+
+}
+
+.market_info-2{
+	color: #956134;	
+	font-size: 18px;
+	font-family: 微軟正黑體;
+	letter-spacing: 12px;
+}
+
+
+/*卡片區域-----------------------------*/
+
+.card_content{
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+}
+
+/*卡片區塊*/
+.card_img1{
+    display: inline-block;
+    width: 32%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/*卡片圖片尺寸*/
+.card_img1 img{
+	width: 100%;
+}
+
+/*卡片圖片敘述*/
+.card_img1 p{
+
+	color: #956134;
+	font-family: baskerville-display-pt,YuMincho,Yu Mincho;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	padding: 10px;
+}
+
+
+/*工作坊區域------------------------------------------------*/
+.Workshop{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 100px;
+ 	width: calc(100% - 160px);
+}
+
+/*Workshop標題-------------------*/
+.title4{
+    display: block;
+	top:  0px;
+	left:0;
+	font-family: Felix Titling;
+	color: #956134;
+	font-size: 56px;
+	letter-spacing: 12px;
+	margin-bottom: 60px;
+}
+
+/*Workshop圖文區域---------------*/
+.Workshop_container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+/*Workshop圖片區域-------*/
+.Workshop_img{
+    width: 60%;
+}
+
+.Workshop_img img{
+	width: 100%;
+}
+
+
