@@ -17,28 +17,33 @@
 		right: 80px;
 	}
 
-.banner_title h1{
-	font-family: Felix Titling;
-	color: #956134;
-	font-size: 4rem;
-	letter-spacing: 12px;
-	position: relative;
-}
+
 
 /*中文標題*/
 
 	.news_ch_title{
 	/*	border: 1px solid blue;*/
+	display: flex;
+	align-items: center;
 	
 	}
 	
-	.news_ch_title  h2{
+	.news_ch_title h1{
+		font-family: Felix Titling;
+		color: #956134;
+		font-size: 4rem;
+		letter-spacing: 12px;
+		position: relative;
+		margin-right: 10px;
+	}
+
+	.banner_title  h2{
 	/*	border: 1px solid blue;*/
 		display: inline-block;
-		font-size: 28px; 
+		font-size: 24px; 
 		font-family: baskerville-display-pt,YuMincho,Yu Mincho;
 		font-weight: bold;
-		letter-spacing: 15px;
+		letter-spacing: 13px;
 	}	
 
 /*內容*/
@@ -60,7 +65,8 @@
 	font-size: 0;
 	display: flex;
 	align-items: center;
-	margin-top: 30px;	
+	margin-top: 100px;
+	margin-bottom: 100px;	
 }
 
 .date{
