@@ -2,7 +2,7 @@
 @import "./footer.css";
 
 *{
-	border: 1px solid red;		
+	/* border: 1px solid red;		 */
 }
 .news_banner{
 	display: flex;
@@ -10,15 +10,36 @@
 	margin-top: 30px;
 }
 
-.news_banner h1{
+.banner_title{
+	/*	border: 1px solid red;*/
+		color: #956134;
+		position: relative;
+		right: 80px;
+	}
+
+.banner_title h1{
 	font-family: Felix Titling;
 	color: #956134;
 	font-size: 4rem;
 	letter-spacing: 12px;
 	position: relative;
-	right: 80px;
 }
 
+/*中文標題*/
+
+	.news_ch_title{
+	/*	border: 1px solid blue;*/
+	
+	}
+	
+	.news_ch_title  h2{
+	/*	border: 1px solid blue;*/
+		display: inline-block;
+		font-size: 28px; 
+		font-family: baskerville-display-pt,YuMincho,Yu Mincho;
+		font-weight: bold;
+		letter-spacing: 15px;
+	}	
 
 /*內容*/
 .main{
@@ -28,26 +49,7 @@
 }
 
 
-/*中文標題*/
-.news_ch_block{
-/*	border: 1px solid red;*/
-	color: #956134;
-	margin-top: 50px;
-}
 
-.news_ch_title{
-/*	border: 1px solid blue;*/
-
-}
-
-.news_ch_title  h2{
-/*	border: 1px solid blue;*/
-	display: inline-block;
-    font-size: 28px; 
-	font-family: baskerville-display-pt,YuMincho,Yu Mincho;
-	font-weight: bold;
-	letter-spacing: 15px;
-}	
 
 /*最新消息內文區*/
 
