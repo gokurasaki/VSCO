@@ -1,35 +1,24 @@
 @import "./header.css";
 @import "./footer.css";
 
+*{
+	border: 1px solid red;		
+}
 .news_banner{
-/*	border: 1px solid red;*/
 	display: flex;
 	align-items: center;
 	margin-top: 30px;
 }
 
-
-.banner_tiltle_block{
-/*	border: 1px solid red;	*/
-	display: flex;
-	align-items: center;
-	position: relative;
-	right: 80px;
-}
-
-.banner_tiltle_block h1{
-/*	border: 1px solid red;*/
-	display: inline-block;
+.news_banner h1{
 	font-family: Felix Titling;
 	color: #956134;
 	font-size: 4rem;
 	letter-spacing: 12px;
+	position: relative;
+	right: 80px;
 }
 
-.banner_tiltle_block img{
-/*	border: 1px solid red;*/
-	display: inline-block;
-}
 
 /*內容*/
 .main{
