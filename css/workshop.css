@@ -10,13 +10,11 @@
     width: calc(100% - 160px);
     margin: 0 auto;
     /* border: 2px solid blue; */
-    
 
 }
 
 .workshop_banner img{
     max-width: 100%;
-
 }
 
 .main{
@@ -49,7 +47,8 @@
 
 /* 工作坊敘述 */
 .workshop_descript{
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 80px;
     text-align: center;
     line-height: 2rem;
     font-size: 14px;
@@ -60,14 +59,16 @@
 .booking_sop{
     margin: 0 auto;
     margin-bottom: 100px;
+    /* border: 1px solid red; */
 
 }
 
 .booking_title{
     text-align: center;
     letter-spacing: 30px;
-    margin: 40px 0 40px 0;
+    margin: 100px 0 40px 0;
     font-size: 21px;
+    font-weight: bold;
 
 }
 
@@ -97,11 +98,11 @@
 
 .booking_btn{
     margin: 0 auto;
-
     text-align: center;
+    
 }
 
-.booking_btn span{
+.booking_btn a{
 	background-color: #956134;
 	color: white;
 	padding: 12px 40px;
@@ -109,7 +110,7 @@
     letter-spacing: 12px;
     margin: 30px 0 30px 0;
     display: inline-block;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 /*卡片區域-----------------------------*/

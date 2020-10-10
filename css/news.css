@@ -144,12 +144,13 @@
 	margin-bottom: 40px;
 }
 
-span.button{
+.container1_descript a{
 	background-color: #956134;
 	color: white;
 	padding: 12px 30px;
 	border-radius: 20px;
 	letter-spacing: 5px;
+	text-decoration: none;
 }
 
 .container1_descript_img-1{
