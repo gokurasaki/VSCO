@@ -47,10 +47,20 @@
 	margin: 0 10px 0px 10px;
 }
 
+/* 工作坊敘述 */
+.workshop_descript{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
 
+/* 預約流程--------------------------------------- */
 .booking_sop{
     margin: 0 auto;
     border: 1px solid red;
+    margin-bottom: 100px;
 
 }
 
@@ -97,4 +107,39 @@
     letter-spacing: 5px;
     margin: 30px 0 30px 0;
     display: inline-block;
+}
+
+/*卡片區域-----------------------------*/
+
+.card_content{
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+}
+
+/*卡片區塊*/
+.card_img1{
+    display: inline-block;
+    width: 32%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/*卡片圖片尺寸*/
+.card_img1 img{
+	width: 100%;
+}
+
+/*卡片圖片敘述*/
+.card_img1 p{
+
+	color: #956134;
+	font-family: baskerville-display-pt,YuMincho,Yu Mincho;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	padding: 10px;
 }
