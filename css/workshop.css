@@ -1,0 +1,100 @@
+@import "./header.css";
+@import "./footer.css";
+
+
+*{
+    /* border: 1px solid black; */
+}
+.workshop_banner{
+	text-align: center;
+    width: calc(100% - 160px);
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    
+
+}
+
+.workshop_banner img{
+    max-width: 100%;
+
+}
+
+.main{
+    margin: 0 auto;
+    color: #956134;
+    width: calc(100% - 160px);
+}
+
+.title{
+    font-family: Felix Titling;
+	color: #956134;
+	font-size: 4rem;
+    letter-spacing: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title_chinese {
+	display: flex;
+	font-size: 18px; 
+	font-family: baskerville-display-pt,YuMincho,Yu Mincho;
+	letter-spacing: 12px;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.title_chinese h2{
+	margin: 0 10px 0px 10px;
+}
+
+
+.booking_sop{
+    margin: 0 auto;
+    border: 1px solid red;
+
+}
+
+.booking_title{
+    text-align: center;
+    letter-spacing: 30px;
+    margin: 40px 0 40px 0;
+    font-size: 21px;
+    border: 1px solid blue;
+}
+
+.booking_sop hr{
+	width: 100px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.booking_sop_step{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.step{
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    background-color: gray;
+}
+
+.booking_btn{
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.booking_btn span{
+	background-color: #956134;
+	color: white;
+	padding: 12px 40px;
+	border-radius: 20px;
+    letter-spacing: 5px;
+    margin: 30px 0 30px 0;
+    display: inline-block;
+}

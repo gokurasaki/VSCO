@@ -2,7 +2,7 @@
 @import "./footer.css";
 
 *{
-	border: 1px solid red;		
+	/* border: 1px solid red;		 */
 }
 .news_banner{
 	display: flex;
@@ -51,6 +51,7 @@
 	width: calc(100% - 160px);
 /*	border: 2px solid black;*/
 	margin: 0 auto;
+	margin-top: 100px;
 }
 
 
@@ -65,23 +66,25 @@
 	font-size: 0;
 	display: flex;
 	align-items: center;
-	margin-top: 100px;
-	margin-bottom: 100px;	
+	margin-bottom: 15px;
 }
+
 
 .date{
 /*	border: 1px solid blue;*/
 	display: inline-block;
 	font-size: 20px;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
+	font-family: baskerville-display-pt,YuMincho,Yu Mincho;
 }
 
 .market_name{
 /*	border: 1px solid blue;*/
 	display: inline-block;
+	font-family: baskerville-display-pt,YuMincho,Yu Mincho;
 	letter-spacing: 8px;
 	font-size: 21px;
-	margin-left: 10px;
+	margin: 0 80px 0 10px;
 }
 
 .news_descript p{
@@ -90,18 +93,33 @@
 	letter-spacing: 3px;
 	color: #AE8663;
 	font-size: 18px;
-	margin-left: 80px;
 	letter-spacing: 5px;
 
 }
 
 /* 圖文區域 */
 
+.top_item{
+	display: flex;
+	color: #956134;
+	font-size: 24px; 
+	font-family: baskerville-display-pt,YuMincho,Yu Mincho;
+	letter-spacing: 12px;
+	justify-content: center;
+	margin-top: 120px;
+}
+
+.top_item h2{
+	margin: 0 20px 0px 20px;
+}
 .container1{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 80px;
+	margin-bottom: 150px;
 }
+
 
 .container1_descript{
 	display: inline-block;
@@ -112,17 +130,10 @@
 	
 }
 
-.container1_descript_title{
-	width: 100%;
-	display: flex;
-	align-items: center;
-}
-
-
 .container1_descript h2{
 	display: inline-block;
 	font-family: baskerville-display-pt,YuMincho,Yu Mincho;	
-	letter-spacing: 12px;
+	letter-spacing: 18px;
 }
 
 
@@ -130,10 +141,27 @@
 	letter-spacing: 4px;
 	margin-top: 20px;
 	line-height: 2rem;
+	margin-bottom: 40px;
 }
 
-.container1 img{
+span.button{
+	background-color: #956134;
+	color: white;
+	padding: 12px 30px;
+	border-radius: 20px;
+	letter-spacing: 5px;
+}
+
+.container1_descript_img-1{
+	position: relative;
 	width: 60%;
+	left: 80px;
+}
+
+.container1_descript_img-2{
+	position: relative;
+	width: 60%;
+	left: -80px;
 }
 
 
