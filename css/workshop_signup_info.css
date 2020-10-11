@@ -1,0 +1,137 @@
+@import "./header.css";
+@import "./footer.css";
+
+
+*{
+    /* border: 1px solid black; */
+}
+
+main.container{
+	margin: 0 auto;
+    text-align: center;
+    width: calc(100% - 160px);
+}
+
+/*Arudeco標題---------------------*/
+
+.title_block{
+    margin: 0 auto;
+}
+
+.title{
+	text-align: center;
+	margin-top: 200px;
+	font-family: Felix Titling;
+	color: #956134;
+	font-size: 4rem;
+	letter-spacing: 12px;
+}
+
+.slogan{
+	text-align: center;
+	padding:  30px 5px;
+    font-family: Noto Sans TC;
+    letter-spacing: 12px;
+    color: #956134;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btmline{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	color: #956134;
+
+}
+
+/* 報名區塊 ------------------------------------------------*/
+
+.sign_up_block{
+    width: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+/*卡片區域-----------------------------*/
+
+.card_content{
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+}
+
+/*卡片區塊*/
+.card_img{
+    display: inline-block;
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/*卡片圖片尺寸*/
+.card_img img{
+	width: 100%;
+}
+
+/*卡片圖片敘述*/
+.card_img_title {
+    color: #956134;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.card_img_title span{
+    display: inline-block;
+	font-family: baskerville-display-pt,YuMincho,Yu Mincho;
+	font-size: 18px;
+	font-weight: bold;
+    letter-spacing: 8px;
+    margin: 20px 0 8px 0;
+}
+
+.descript{
+    font-family: Felix Titling; 
+    font-size: 14px;
+    letter-spacing: 5px;
+    line-height: 21px;
+
+}
+
+.price{
+    font-family: Felix Titling; 
+    font-size: 16px;
+    letter-spacing: 5px;
+    margin: 8px 0 20px 0;
+
+}
+
+/* 報名文字區塊 */
+.sign_up_text{
+    width: 250px;
+    text-align: left;
+    line-height: 30px;
+    color: #956134;
+    /* margin-left: 80px; */
+    letter-spacing: 3px;
+    font-family: 微軟正黑體;
+}
+
+.date_block{
+    line-height: 24px;
+    margin: 15px 0 15px 0;
+}
+
+button {
+    background-color: #956134;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    letter-spacing: 6px;
+}
