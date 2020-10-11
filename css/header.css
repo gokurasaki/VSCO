@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	border: 1px solid orange;
+	/* border: 1px solid orange; */
 }
 
 
@@ -19,17 +19,16 @@ header.header {
 
 /*左區塊導覽列*/
 nav.nav1{
-/*	border: 2px solid black;*/
+	/* border: 2px solid black; */
 	display: inline-block;
 	position:absolute;
-	/* left:0;
-	top:50%;
-	transform: translateY(-50%); */
-	/* vertical-align: top; */
+	margin-top: 30px;
+
 }
 
 ul.nav_list1{
-	display: inline-block;
+
+	display: flex;
 	list-style: none;
 	margin-left: 80px;
 
@@ -55,12 +54,32 @@ ul.nav_list1 a{
 }
 
 .product_block{
-	position: relative;
-	/* top:64px; */
+	/* border: 2px solid blue; */
+	display: flex;
 	text-align: center;
+	flex-direction: column;	
 }
 
-/* 按鈕效果 */
+.product_block_title{
+	/* border: 2px solid green; */
+	position: relative;
+}
+
+ul.product_block_list{
+	display: flex;
+	flex-direction: column;
+	background-color:  rgba(100%,100%,100%,0.7);
+	/* border: 1px solid  #956134; */
+
+}
+
+ul.product_block_list li a{
+	/* border: 2px solid royalblue; */
+	border-bottom: initial;
+	font-weight: initial;
+	padding: 10px 0 10px 0;
+}
+
 
 
 
@@ -117,5 +136,24 @@ div.parent_block::after{
 
 /* 滑鼠移入效果 */
 
+ul.product_block_list > li > a:hover{
+	/* border: 2px solid royalblue; */
+	border-bottom: initial;
+	font-weight: initial;
+	padding: 10px 0 10px 0;
+}
 
+
+
+.product_block:hover
+ul.product_block_list{
+	display: block;
+}
+
+
+
+ul.product_block_list{
+	display: none;
+	
+}
 
