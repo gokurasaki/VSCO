@@ -6,7 +6,6 @@
 }
 
 .container{
-    border: 1px solid red;
     margin: 0 auto;
     width: calc(100% - 160px);
     margin-top: 180px;
@@ -34,7 +33,6 @@
 }
 
 .breadcrumbs{
-    border: 1px solid blue;
     text-align: right;
     margin: 20px 0 20px 0;
 
@@ -49,7 +47,6 @@
 
 
 .product_list_block{
-    border: 2px solid pink;
     display: flex;
     justify-content: space-between;
 
@@ -93,12 +90,10 @@
 
 .product_photo_block{
     width: 78%;
-    /* border: 2px solid blue; */
 
 }
 
 .product_line{
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
@@ -106,7 +101,6 @@
 
 .product_card{
     width: 32%;
-    /* border: 2px solid blue; */
     border-radius: 25px;
     overflow: hidden;
     text-align: center;
