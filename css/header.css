@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-/*	border: 1px solid orange;*/
+	border: 1px solid orange;
 }
 
 
@@ -22,9 +22,10 @@ nav.nav1{
 /*	border: 2px solid black;*/
 	display: inline-block;
 	position:absolute;
-	left:0;
+	/* left:0;
 	top:50%;
-	transform: translateY(-50%);
+	transform: translateY(-50%); */
+	/* vertical-align: top; */
 }
 
 ul.nav_list1{
@@ -51,6 +52,12 @@ ul.nav_list1 a{
 	color: #956134;
 	letter-spacing: 4px;
 	border-bottom: solid 1.5px #956134;
+}
+
+.product_block{
+	position: relative;
+	/* top:64px; */
+	text-align: center;
 }
 
 /* 按鈕效果 */
