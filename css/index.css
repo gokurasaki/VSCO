@@ -133,8 +133,7 @@ main.container{
 .title2_descript-1 p{
 	display: inline-block;
     font-size: 28px; 
-	font-family: bSawarabi Mincho;
-	font-weight: bold;
+	font-family: 'Sawarabi Mincho', sans-serif;
 	letter-spacing: 15px;
 
 }
