@@ -35,7 +35,7 @@ ul.nav_list1{
 
 }
 
-ul.nav_list1 li{
+ul.nav_list1 > li{
 	display: inline-block;
 	margin-right: 15px;
 	font-size: 14px;
@@ -69,6 +69,7 @@ ul.product_block_list{
 	display: flex;
 	flex-direction: column;
 	background-color:  rgba(100%,100%,100%,0.7);
+	list-style: none;
 	/* border: 1px solid  #956134; */
 
 }

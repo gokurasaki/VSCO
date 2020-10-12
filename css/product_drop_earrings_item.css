@@ -22,35 +22,52 @@
 
 .breadcrumbs{
     margin: 15px 0 15px 0;
-
-
 }
 
 .breadcrumbs a{
     text-decoration: none;
     font-size: 16px;
     letter-spacing: 8px;
-    color: black;
+    font-family: baskerville-display-pt,YuMincho,Yu Mincho;
+    color: #42413e;
+    font-weight: bold;
+
 }
 
 .earring_block{
-    border: 1px solid red;
-    width: 80%;
+    width: 100%;
     display: flex;
-    align-items: center;
+    align-items: top;
+    justify-content: space-between;
 }
 
-.earring_block img{
-    width: 60%;
+.img_block{
+    width: 45%;
+    
+}
+.img_block img{
+    width: 100%;
+}
+
+.img_smallblock{
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+
+.img_smallblock img{
+    width: 32%;
 }
 
 .earring_text_block{
     color: #42413e;
-    margin-left: 50px;
+    position: relative;
+    top: 150px;
 }
 
 .earring_text_block span{
-    letter-spacing: 8px;
+    letter-spacing: 10px;
+    font-family: baskerville-display-pt,YuMincho,Yu Mincho;;
 }
 
 .earring_text_block p{
@@ -77,6 +94,71 @@ a.btn{
     padding: 10px 20px;
     border-radius: 15px;
     
+}
+
+/*卡片區域-----------------------------*/
+
+.other_option{
+    width: 20%;
+
+}
+
+.other_option h3{
+    font-family: baskerville-display-pt,YuMincho,Yu Mincho;
+    letter-spacing: 8px;
+    color: #42413e;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.card_content{
+	display: flex;
+    justify-content: space-between;
+}
+
+
+/*卡片區塊*/
+.card_img{
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+/*卡片圖片尺寸*/
+.card_img img{
+	width: 100%;
+}
+
+/*卡片圖片敘述*/
+.card_img_title {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.card_img_title span{
+    display: inline-block;
+	font-family: baskerville-display-pt,YuMincho,Yu Mincho;
+	font-size: 13px;
+	font-weight: bold;
+    letter-spacing: 8px;
+    color: #42413e;
+    line-height: 8px;
+
+}
+
+
+.price{
+    font-family: 微軟正黑體; 
+    font-size: 10px;
+    margin-bottom: 8px;
+    color: #7d7d7a;
+    letter-spacing: 2px;
+
 }
 
 
