@@ -1,0 +1,83 @@
+@import "./header.css";
+@import "./footer.css";
+
+*{
+    /* border: 1px solid blue; */
+}
+
+.container{
+    margin: 0 auto;
+    width: calc(100% - 160px);
+    margin-top: 50px;
+
+}
+
+
+.container h5{
+    font-family: Felix Titling;
+    font-size: 24px;
+    letter-spacing: 6px;
+    color: #956134;
+}
+
+.breadcrumbs{
+    margin: 15px 0 15px 0;
+
+
+}
+
+.breadcrumbs a{
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 8px;
+    color: black;
+}
+
+.earring_block{
+    border: 1px solid red;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.earring_block img{
+    width: 60%;
+}
+
+.earring_text_block{
+    color: #42413e;
+    margin-left: 50px;
+}
+
+.earring_text_block span{
+    letter-spacing: 8px;
+}
+
+.earring_text_block p{
+    color: #7d7d7a;
+    font-size: 14px;
+    font-size: 微軟正黑體;
+    font-weight: initial;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.earring_text_block p b{
+    color: #42413e;
+}
+
+a.btn{
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #956134;
+    color: white;
+    font-size: 16px;
+    font-weight: initial;
+    padding: 10px 20px;
+    border-radius: 15px;
+    
+}
+
+
+
